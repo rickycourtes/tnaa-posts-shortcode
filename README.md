@@ -3,7 +3,7 @@ Wordpress shortcode plugin displaying TNAA posts via the `[tnaa-posts]` in a pos
 
 ## How to Use
 
-Template: `[tnaa-posts limit="5" sort="desc" sortby="date" categories="13"]` 
+Template: `[tnaa-posts limit="5" sort="desc" sortby="date"]` 
 
 ### Parameters
 
@@ -15,5 +15,6 @@ Template: `[tnaa-posts limit="5" sort="desc" sortby="date" categories="13"]`
 + `orderby` - Sort post collection by object attribute.
   - Default: `date`
   - One of: `title`, `author`, `date`, `id`, `include`, `modified`, `parent`, `relevance`, `slug`, `include_slugs`
-+ `categories` - Limit result to all items that have the specified term assigned in the categories taxonomy.
++ `categories` - Limit result to all items that have the specified term id assigned in the categories taxonomy.
+  - Example: `[tnaa-posts categories="13"]` 
 
