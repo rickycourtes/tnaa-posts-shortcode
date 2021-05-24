@@ -5,6 +5,8 @@ Wordpress shortcode plugin displaying TNAA posts via the `[tnaa-posts]` in a pos
 
 Template: `[tnaa-posts limit="5" sort="desc" sortby="date" categories="13"]` 
 
+### Options
+
 + `limit` - Maximum number of items to be returned in result set.
   - Default: `5`
 + `order` - Order sort attribute ascending or descending.
